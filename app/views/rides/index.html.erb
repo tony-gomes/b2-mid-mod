@@ -1,0 +1,7 @@
+<h1>All Rides</h1>
+
+<section class="rides-main-block">
+  <%= @rides.each do |ride| %>
+    <h2><%= ride.name %>, <%= ride.thrill_rating %></h2>
+  <% end %>
+</section>
