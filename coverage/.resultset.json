@@ -206,6 +206,8 @@
         "lines": [
           1,
           null,
+          null,
+          1,
           null
         ]
       },
@@ -214,8 +216,38 @@
           1,
           null
         ]
+      },
+      "/Users/mothership/Desktop/TURING/mods/2mod/challenges/b2-mid-mod/app/models/mechanic.rb": {
+        "lines": [
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/mothership/Desktop/TURING/mods/2mod/challenges/b2-mid-mod/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/mothership/Desktop/TURING/mods/2mod/challenges/b2-mid-mod/app/controllers/mechanics_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/mothership/Desktop/TURING/mods/2mod/challenges/b2-mid-mod/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1585927472
+    "timestamp": 1585928729
   }
 }
