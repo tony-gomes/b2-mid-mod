@@ -7,6 +7,15 @@ RSpec.describe 'As a user' do
 
     @park_2 = Park.create(name: "Total Chaos",
                           admission_price: 25.00)
+
+    @ride_1 = @park_1.rides.create(name: "Skull Crusher",
+                          thrill_rating: 3)
+
+    @ride_2 = @park_1.rides.create(name: "Paradise Falls",
+                          thrill_rating: 9)
+
+    @ride_3 = @park_1.rides.create(name: "Head Basket",
+                          thrill_rating: 7)
   end
 
   describe 'When I visit a park show page I see name & admission_price for that park' do
@@ -15,7 +24,7 @@ RSpec.describe 'As a user' do
 
         visit "/parks/#{@park_1.id}"
 
-        within ".main-park-block" do
+        within ".park-main-block" do
           expect(page).to have_content(@park_1.name)
           expect(page).to have_content(@park_1.admission_price)
           expect(page).to have_content("Rides:")
@@ -24,7 +33,7 @@ RSpec.describe 'As a user' do
 
         visit "/parks/#{@park_2.id}"
 
-        within ".main-park-block" do
+        within ".park-main-block" do
           expect(page).to have_content(@park_2.name)
           expect(page).to have_content(@park_2.admission_price)
           expect(page).to have_content("Rides:")

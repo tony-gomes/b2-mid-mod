@@ -2,13 +2,16 @@ require 'rails_helper'
 
 RSpec.describe 'As a user' do
   before(:each) do
-    @ride_1 = Ride.create(name: "Skull Crusher",
+    @park_1 = Park.create(name: "Total Chaos",
+                          admission_price: 25.00)
+
+    @ride_1 = @park_1.rides.create(name: "Skull Crusher",
                           thrill_rating: 3)
 
-    @ride_2 = Ride.create(name: "Paradise Falls",
+    @ride_2 = @park_1.rides.create(name: "Paradise Falls",
                           thrill_rating: 9)
 
-    @ride_3 = Ride.create(name: "Head Basket",
+    @ride_3 = @park_1.rides.create(name: "Head Basket",
                           thrill_rating: 7)
   end
 
