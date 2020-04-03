@@ -26,3 +26,13 @@ Ride.destroy_all
 
   park_2 = Park.create(name: "Total Chaos",
                         admission_price: 25.00)
+
+# Rides
+  ride_1 = Ride.create(name: "Skull Crusher",
+                        thrill_rating: 3)
+
+  ride_2 = Ride.create(name: "Paradise Falls",
+                        thrill_rating: 9)
+
+  ride_3 = Ride.create(name: "Head Basket",
+                        thrill_rating: 7)
