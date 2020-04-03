@@ -21,6 +21,15 @@ RSpec.describe 'As a user' do
           expect(page).to have_content("Rides:")
           expect(page).to have_content("Average Thrill Rating of Rides:")
         end
+
+        visit "/parks/#{@park_2.id}"
+
+        within ".main-park-block" do
+          expect(page).to have_content(@park_2.name)
+          expect(page).to have_content(@park_2.admission_price)
+          expect(page).to have_content("Rides:")
+          expect(page).to have_content("Average Thrill Rating of Rides:")
+        end
       end
     end
   end
