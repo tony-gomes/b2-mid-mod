@@ -1,0 +1,16 @@
+<h1>Park Page</h1>
+
+<div class="park-main-block">
+  <h2><%= @park.name %>: <%= @park.admission_price %></h2>
+
+  <h3>Rides:</h3>
+    <ol class="park-rides-block">
+      <% @park.rides.each do |ride| %>
+        <li><%= ride.name %></li>
+      <% end %>
+    </ol>
+
+  <div class="park-average-thrill-rating-block">
+    <h3>Average Thrill Rating of Rides: <% @park.average_thrill_ratings %></h3>
+  </div>
+</div>

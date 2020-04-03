@@ -18,7 +18,7 @@ RSpec.describe 'As a user' do
 
         visit "/mechanics"
 
-        within ".mechanic-main-block" do
+        within ".mechanics-main-block" do
           expect(page).to have_content(@mechanic_1.name)
           expect(page).to have_content(@mechanic_1.years_experience)
 
