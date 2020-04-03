@@ -18,7 +18,7 @@ RSpec.describe 'As a user' do
 
         visit "/rides"
 
-        within ".main-rides-block" do
+        within ".rides-main-block" do
           expect(page).to have_content("Skull Crusher")
           expect(page).to have_content("3")
 
