@@ -221,122 +221,14 @@
           null
         ]
       },
-      "/Users/mothership/Desktop/TURING/mods/2mod/challenges/b2-mid-mod/spec/features/parks/show_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          null,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/mothership/Desktop/TURING/mods/2mod/challenges/b2-mid-mod/spec/features/rides/index_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          0,
-          null,
-          null,
-          0,
-          null,
-          null,
-          0,
-          null,
-          null,
-          0,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          0,
-          null,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          null,
-          0,
-          0,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/mothership/Desktop/TURING/mods/2mod/challenges/b2-mid-mod/spec/models/mechanic_spec.rb": {
-        "lines": [
-
-        ]
-      },
-      "/Users/mothership/Desktop/TURING/mods/2mod/challenges/b2-mid-mod/spec/models/park_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
       "/Users/mothership/Desktop/TURING/mods/2mod/challenges/b2-mid-mod/app/models/park.rb": {
         "lines": [
           1,
           1,
           1,
+          null,
+          1,
+          null,
           null
         ]
       },
@@ -344,22 +236,6 @@
         "lines": [
           1,
           1,
-          null
-        ]
-      },
-      "/Users/mothership/Desktop/TURING/mods/2mod/challenges/b2-mid-mod/spec/models/ride_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
           null
         ]
       },
@@ -371,18 +247,11 @@
           null
         ]
       },
-      "/Users/mothership/Desktop/TURING/mods/2mod/challenges/b2-mid-mod/app/models/mechanic.rb": {
-        "lines": [
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/mothership/Desktop/TURING/mods/2mod/challenges/b2-mid-mod/app/controllers/mechanics_controller.rb": {
+      "/Users/mothership/Desktop/TURING/mods/2mod/challenges/b2-mid-mod/app/controllers/parks_controller.rb": {
         "lines": [
           1,
           1,
-          1,
+          2,
           null,
           null
         ]
@@ -393,17 +262,8 @@
           1,
           null
         ]
-      },
-      "/Users/mothership/Desktop/TURING/mods/2mod/challenges/b2-mid-mod/app/controllers/parks_controller.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
       }
     },
-    "timestamp": 1585935519
+    "timestamp": 1585936768
   }
 }

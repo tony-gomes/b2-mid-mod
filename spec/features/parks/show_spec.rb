@@ -5,16 +5,16 @@ RSpec.describe 'As a user' do
     @park_1 = Park.create(name: "Total Chaos",
                           admission_price: 25.00)
 
-    @park_2 = Park.create(name: "Total Chaos",
+    @park_2 = Park.create(name: "Total Chaos Too",
                           admission_price: 25.00)
 
-    @ride_1 = @park_1.rides.create(name: "Skull Crusher",
+    @ride_1 = @park_2.rides.create(name: "Skull Crusher",
                           thrill_rating: 3)
 
-    @ride_2 = @park_1.rides.create(name: "Paradise Falls",
+    @ride_2 = @park_2.rides.create(name: "Paradise Falls",
                           thrill_rating: 9)
 
-    @ride_3 = @park_1.rides.create(name: "Head Basket",
+    @ride_3 = @park_2.rides.create(name: "Head Basket",
                           thrill_rating: 7)
   end
 
@@ -37,6 +37,13 @@ RSpec.describe 'As a user' do
           expect(page).to have_content(@park_2.name)
           expect(page).to have_content(@park_2.admission_price)
           expect(page).to have_content("Rides:")
+
+          within ".park-rides-block" do
+          expect(page).to have_content(@ride_1.name)
+          expect(page).to have_content(@ride_2.name)
+          expect(page).to have_content(@ride_3.name)
+          end
+
           expect(page).to have_content("Average Thrill Rating of Rides:")
         end
       end
